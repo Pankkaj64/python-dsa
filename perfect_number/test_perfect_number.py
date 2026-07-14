@@ -8,6 +8,7 @@ from perfect_number import is_perfect_number
     (28, True),      # 1 + 2 + 4 + 7 + 14 = 28
     (496, True),     # perfect number
     (8128, True),    # perfect number
+    (12, False),     # abundant number
     (1, False),
     (2, False),
     (10, False),
