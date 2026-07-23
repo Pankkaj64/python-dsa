@@ -1,6 +1,6 @@
 import unittest
 
-from integer_to_roman import int_to_roman
+from main import int_to_roman
 
 
 class TestIntegerToRoman(unittest.TestCase):
