@@ -1,5 +1,5 @@
 import unittest
-from container_with_most_water import max_area
+from main import max_area
 
 
 class TestContainerWithMostWater(unittest.TestCase):
