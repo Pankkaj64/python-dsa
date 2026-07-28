@@ -1,6 +1,6 @@
 import unittest
 
-from merge_k_sorted_lists import ListNode, merge_k_lists
+from main import ListNode, merge_k_lists
 
 
 def build_linked_list(values):
