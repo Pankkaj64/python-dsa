@@ -1,6 +1,6 @@
 import unittest
 
-from search_insert_position import search_insert
+from main import search_insert
 
 
 class TestSearchInsertPosition(unittest.TestCase):
