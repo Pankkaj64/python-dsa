@@ -1,5 +1,5 @@
 import unittest
-from combination_sum import Solution
+from main import Solution
 
 
 class TestCombinationSum(unittest.TestCase):
