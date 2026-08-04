@@ -1,6 +1,6 @@
 import unittest
 
-from divide_two_integers import divide
+from main import divide
 
 
 class TestDivideTwoIntegers(unittest.TestCase):
