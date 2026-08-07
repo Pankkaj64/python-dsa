@@ -1,6 +1,6 @@
 import unittest
 
-from same_tree import TreeNode, is_same_tree
+from main import TreeNode, is_same_tree
 
 
 def build_tree(values):
