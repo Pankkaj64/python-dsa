@@ -1,6 +1,6 @@
 import unittest
 
-from symmetric_tree import TreeNode, is_symmetric
+from main import TreeNode, is_symmetric
 
 
 def build_tree(values):
