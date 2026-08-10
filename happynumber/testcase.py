@@ -1,6 +1,6 @@
 import unittest
 
-from happy_number import is_happy
+from main import is_happy
 
 
 class TestHappyNumber(unittest.TestCase):
