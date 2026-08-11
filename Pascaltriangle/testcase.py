@@ -1,6 +1,6 @@
 import unittest
 
-from pascal_triangle import generate
+from main import generate
 
 
 class TestPascalTriangle(unittest.TestCase):
