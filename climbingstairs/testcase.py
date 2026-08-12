@@ -1,6 +1,6 @@
 import unittest
 
-from climbing_stairs import climb_stairs
+from main import climb_stairs
 
 
 class TestClimbingStairs(unittest.TestCase):
