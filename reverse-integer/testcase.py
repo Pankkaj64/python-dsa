@@ -1,10 +1,11 @@
-from reverse import reverse
+from main import Solution
 
 
-print(reverse(123))        # 321
-print(reverse(-123))       # -321
-print(reverse(120))        # 21
-print(reverse(0))          # 0
-print(reverse(1534236469)) # 0 (overflow)
-print(reverse(-1200))      # -21
-print(reverse(100))        # 1
+solution = Solution()
+print(solution.reverse_integer(123))        # 321
+print(solution.reverse_integer(-123))       # -321
+print(solution.reverse_integer(120))        # 21
+print(solution.reverse_integer(0))          # 0
+print(solution.reverse_integer(1534236469)) # 0 (overflow)
+print(solution.reverse_integer(-1200))      # -21
+print(solution.reverse_integer(100))        # 1

@@ -1,20 +1,20 @@
-def reverse(x: int) -> int:
-    INT_MAX = 2**31 - 1
-    INT_MIN = -2**31
+class Solution:
+    def reverse_integer(self, x):
 
-    sign = -1 if x < 0 else 1
-    x = abs(x)
+        sign = -1 if x < 0 else 1
+        x = abs(x)
 
-    rev = 0
+        result = 0
 
-    while x != 0:
-        digit = x % 10
-        rev = rev * 10 + digit
-        x //= 10
+        while x != 0:
+            digit = x % 10
+            x = x // 10
 
-    rev *= sign
+            result = result * 10 + digit
 
-    if rev < INT_MIN or rev > INT_MAX:
-        return 0
+        result = result * sign
 
-    return rev
+        if result > 2**31 - 1 or result < -2**31:
+            return 0
+
+        return result
