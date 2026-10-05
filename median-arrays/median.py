@@ -11,8 +11,9 @@ def find_median_sorted_arrays(nums1, nums2):
     return (merged[n // 2 - 1] + merged[n // 2]) / 2
 
 
-# Example usage
-nums1 = [1, 3]
-nums2 = [2]
+if __name__ == "__main__":
+    # Example usage
+    nums1 = [1, 3]
+    nums2 = [2]
 
-print(find_median_sorted_arrays(nums1, nums2))
+    print(find_median_sorted_arrays(nums1, nums2))
