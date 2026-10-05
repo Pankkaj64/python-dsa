@@ -1,10 +1,10 @@
 # Python DSA Practice
 
-A collection of 37 data-structure and algorithm problems solved in Python, one folder per problem. Each folder holds a standalone solution plus its own tests, written with `unittest`, `pytest` or a simple print/assert script. The set ranges from number-theory basics (GCD, primes, factorial) to classic interview problems (4Sum, Merge k Sorted Lists, Longest Substring Without Repeating Characters), using techniques such as two pointers, sliding window, binary search, stacks, heaps, backtracking, recursion on trees and iterative dynamic programming.
+A collection of 38 data-structure and algorithm problems solved in Python, one folder per problem. Each folder holds a standalone solution plus its own tests, written with `unittest`, `pytest` or a simple print/assert script. The set ranges from number-theory basics (GCD, primes, factorial) to classic interview problems (4Sum, Merge k Sorted Lists, Longest Substring Without Repeating Characters), using techniques such as two pointers, sliding window, binary search, stacks, heaps, backtracking, recursion on trees and iterative dynamic programming.
 
 ## Features
 
-- 37 self-contained problems, each in its own folder with a solution and tests
+- 38 self-contained problems, each in its own folder with a solution and tests
 - Type hints and docstrings on many solutions
 - Input validation on the number-theory helpers (raise `TypeError` / `ValueError` on bad input)
 - No third-party runtime dependencies; only `pytest` is needed for the pytest-style tests
@@ -44,7 +44,7 @@ A collection of 37 data-structure and algorithm problems solved in Python, one f
 | [String to Integer (atoi)](stringtointeger/) | Single pass with sign and 32-bit clamping | script |
 | [Palindrome Check](palindrome/) | Two pointers | pytest |
 | [Reverse a String](reverse/) | Two-pointer swap | pytest |
-| [Count Vowels](countvowels/) | Linear scan | pytest |
+| [Count Vowels](countvowels/) | Case-insensitive linear scan | pytest |
 
 ### Math and Number Theory
 
@@ -64,7 +64,8 @@ A collection of 37 data-structure and algorithm problems solved in Python, one f
 | [Happy Number](happynumber/) | Cycle detection with a set | unittest |
 | [Reverse Integer](reverse-integer/) | Digit reversal with 32-bit overflow check | script |
 | [Divide Two Integers](dividetwointegers/) | Bit-shift long division (no `*`, `/`, `%`) | unittest |
-| [Integer to Roman](romantointeger/) | Greedy value/symbol table | unittest |
+| [Integer to Roman](integertoroman/) | Greedy value/symbol table | unittest |
+| [Roman to Integer](romantointeger/) | Single pass, subtracting a symbol smaller than the next | unittest |
 
 ### Dynamic Programming and Sequences
 
